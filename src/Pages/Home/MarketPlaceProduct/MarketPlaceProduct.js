@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 const MarketPlaceProduct = () => {
     return (
         <div className='mt-[100px] bg-[#ccdcff]'>
-            <div className='py-11 mx-5 p-10'>
+            <div className='py-11  md:mx-5 mx-5 lg:mx-16'>
                 <h1 className='text-4xl text-center mb-5'>Marketplace Products</h1>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
                     <div>

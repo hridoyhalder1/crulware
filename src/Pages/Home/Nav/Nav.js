@@ -13,8 +13,8 @@ import node from '../../../assets/icons/nodejs.jpg';
 const Nav = () => {
     return (
         <div className='bg-[#ccdcff]'>
-            <div className='mt-[100px] mx-5 '>
-                <div className=' p-10 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8  gap-2'>
+            <div className='mt-[100px]  md:mx-5 mx-5 lg:mx-16'>
+                <div className=' py-10 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8  gap-2'>
                     <div className='rounded-xl bg-[white] py-8 px-3 hover:-translate-y-2 transition-all shadow'>
                         <Link to='/'>
                             <div className=' '>
