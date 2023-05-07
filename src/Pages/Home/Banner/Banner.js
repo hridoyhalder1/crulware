@@ -145,7 +145,7 @@ const Banner = () => {
                                     {/* button */}
 
                                     <button type="submit" className=' ' >
-                                        <div className='flex items-center bg-[#bde6ff] px-3 py-3  rounded-full'>
+                                        <div className='flex items-center bg-[#e51466] text-white px-3 py-3  rounded-full'>
                                             <HiSearch />
                                             Search
                                         </div>
