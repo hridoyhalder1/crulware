@@ -13,9 +13,9 @@ const PopularSection = () => {
         setIsBookmarked(!isBookmarked);
     }
     return (
-        <div className='mt-[100px] md:mx-5 mx-5 lg:mx-16 '>
+        <div className='mt-[100px]  mx-5 md:mx-5 lg:mx-16 '>
             <h1 className='text-4xl text-center'>Popular Products</h1>
-            <div className='flex gap-8 mt-14 cursor-pointer ' >
+            <div className='md:flex lg:flex gap-8 mt-14 cursor-pointer ' >
                 {/* =====div1===== */}
                 <div className='flex-1 bg-[#ccdcff] rounded-md hidden md:hidden lg:block'>
                     <div className='h-screen flex items-center justify-center flex-col p-5'>

@@ -5,6 +5,8 @@ import MarketPlaceProduct from './MarketPlaceProduct/MarketPlaceProduct';
 import Accounts from './Accounts/Accounts';
 import PopularSection from './PopularSection/PopularSection';
 import BundleProducts from './BundleProducts/BundleProducts';
+import LatestProducts from './LatestProducts/LatestProducts';
+import NewsLetter from './NewsLetter/NewsLetter';
 
 const Home = () => {
     return (
@@ -13,6 +15,8 @@ const Home = () => {
             <Nav/>
             <PopularSection/>
             <BundleProducts/>
+            <LatestProducts/>
+            <NewsLetter/>
             <Accounts/>
             <MarketPlaceProduct/>
         </div>
